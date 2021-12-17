@@ -1,0 +1,49 @@
+@use 'sass:math';
+
+.col1 {
+  width: math.div(1, 12) * 100%;
+}
+
+.col2 {
+  width: math.div(2, 12) * 100%;
+}
+
+.col3 {
+  width: math.div(3, 12) * 100%;
+}
+
+.col4 {
+  width: math.div(4, 12) * 100%;
+}
+
+.col5 {
+  width: math.div(5, 12) * 100%;
+}
+
+.col6 {
+  width: math.div(6, 12) * 100%;
+}
+
+.col7 {
+  width: math.div(7, 12) * 100%;
+}
+
+.col8 {
+  width: math.div(8, 12) * 100%;
+}
+
+.col9 {
+  width: math.div(9, 12) * 100%;
+}
+
+.col10 {
+  width: math.div(10, 12) * 100%;
+}
+
+.col11 {
+  width: math.div(11, 12) * 100%;
+}
+
+.col1 {
+  width: 100%;
+}
