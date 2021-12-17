@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "add": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD)"
+    "add": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD)",
+    "start": "sass --watch scss:build"
   },
   "repository": {
     "type": "git",
