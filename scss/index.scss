@@ -1,5 +1,9 @@
 @use 'sass:math';
 
+html {
+  box-sizing: border-box;
+}
+
 .col1 {
   width: math.div(1, 12) * 100%;
 }
